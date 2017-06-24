@@ -1,0 +1,35 @@
+<ion-view class="bg-gradient-content1">
+    <h1 class="title" id="titlejb">J weds B</h1>
+    <div class="wish-form">
+      <div class="list">
+        <label class="item item-input">
+          <input type="text" placeholder="Your name" ng-model="wish.sender">
+        </label>
+        <label class="item item-input">
+          <textarea placeholder="Message" rows="5" ng-model="wish.content"></textarea>
+        </label>
+      </div>
+      <button class="button" ng-disabled="!(wish.sender && wish.content) || disableSend" ng-click="sendWish()">
+        Send
+      </button>
+      <br />
+      <div class="status" ng-if="showStatus">
+        <label>
+          {{statusMessage}}
+        </label>
+      </div>
+      <ion-spinner icon="android" ng-if="isLoading"></ion-spinner>
+    </div>
+    <div class="wishes">
+      <div class="list">
+        <div class="item item-avatar" ng-repeat="wish in wishes">
+          <label class="name" ng-bind="wish.senderName"></label>
+          <label class="date">{{wish.created_at | date}}</label>
+          <p class="content">{{wish.message}}</p>
+        </div>
+      </div>
+    </div>
+    <div>
+
+    </div>
+</ion-view>

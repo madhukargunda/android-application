@@ -1,0 +1,346 @@
+@font-face {
+    font-family: italianno;
+    src: url(fonts/Italianno-Regular.ttf);
+}
+@font-face {
+    font-family: janda;
+    src: url(fonts/JandaCelebrationScript.ttf);
+}
+@font-face {
+    font-family: lietome;
+    src: url(fonts/LietoMe.ttf);
+}
+
+.wedding-one {
+
+}
+
+html {
+  /*background: url(../img/paper_bg.jpg) no-repeat center center fixed;*/
+  /*background: rgba(171, 102, 58, 0.61);*/
+  /*#cba186*/
+  /*background: #866048;*/
+  /*background-size: cover;*/
+}
+.bg-gradient-content1-bak {
+  background: rgba(194,152,128,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(194,152,128,1) 0%, rgba(129,92,70,1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(194,152,128,1)), color-stop(100%, rgba(129,92,70,1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(194,152,128,1) 0%, rgba(129,92,70,1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(194,152,128,1) 0%, rgba(129,92,70,1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(194,152,128,1) 0%, rgba(129,92,70,1) 100%);
+  background: radial-gradient(ellipse at center, rgba(194,152,128,1) 0%, rgba(129,92,70,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c29880', endColorstr='#815c46', GradientType=1 );
+}
+.bg-gradient-content1 {
+  background: rgb(144, 103, 79);
+  background: -moz-radial-gradient(center, ellipse cover,  0%, rgba(95, 66, 49, 1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgb(144, 103, 79)), color-stop(100%, rgba(95, 66, 49, 1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgb(144, 103, 79) 0%, rgba(95, 66, 49, 1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgb(144, 103, 79) 0%, rgba(95, 66, 49, 1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgb(144, 103, 79) 0%, rgba(95, 66, 49, 1) 100%);
+  background: radial-gradient(ellipse at center, rgb(144, 103, 79) 0%, rgba(95, 66, 49, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c29880', endColorstr='#815c46', GradientType=1 );
+}
+.bg-gradient-content {
+  background: rgba(201,157,130,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(201,157,130,1) 0%, rgba(129,92,70,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(201,157,130,1)), color-stop(100%, rgba(129,92,70,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(201,157,130,1) 0%, rgba(129,92,70,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(201,157,130,1) 0%, rgba(129,92,70,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(201,157,130,1) 0%, rgba(129,92,70,1) 100%);
+background: radial-gradient(ellipse at center, rgba(201,157,130,1) 0%, rgba(129,92,70,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c99d82', endColorstr='#815c46', GradientType=1 );
+}
+.bg-gradient-bak {
+  background: rgba(134,96,72,1);
+background: -moz-linear-gradient(top, rgba(134,96,72,1) 0%, rgba(203,161,134,1) 52%, rgba(203,161,134,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(134,96,72,1)), color-stop(52%, rgba(203,161,134,1)), color-stop(100%, rgba(203,161,134,1)));
+background: -webkit-linear-gradient(top, rgba(134,96,72,1) 0%, rgba(203,161,134,1) 52%, rgba(203,161,134,1) 100%);
+background: -o-linear-gradient(top, rgba(134,96,72,1) 0%, rgba(203,161,134,1) 52%, rgba(203,161,134,1) 100%);
+background: -ms-linear-gradient(top, rgba(134,96,72,1) 0%, rgba(203,161,134,1) 52%, rgba(203,161,134,1) 100%);
+background: linear-gradient(to bottom, rgba(134,96,72,1) 0%, rgba(203,161,134,1) 52%, rgba(203,161,134,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#866048', endColorstr='#cba186', GradientType=0 );
+}
+.bg-gradient {
+  background: rgba(95, 66, 49, 1);
+  background: -moz-linear-gradient(top, rgba(134,96,72,1) 20%, rgba(203,161,134,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(20%, rgba(95, 66, 49, 1)), color-stop(100%, rgba(203,161,134,1)));
+  background: -webkit-linear-gradient(top, rgba(95, 66, 49, 1) 20%, rgba(203,161,134,1) 100%);
+  background: -o-linear-gradient(top, rgba(95, 66, 49, 1) 20%, rgba(203,161,134,1) 100%);
+  background: -ms-linear-gradient(top, rgba(95, 66, 49, 1) 20%, rgba(203,161,134,1) 100%);
+  background: linear-gradient(to bottom, rgba(95, 66, 49, 1) 20%, rgba(203,161,134,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#866048', endColorstr='#cba186', GradientType=0 );
+}
+.invitation-content, .invitation-content h3 {
+  /*background: url(../img/paper_bg.jpg) center no-repeat;*/
+  color: #fbda57;
+  font-size: 24px;
+  line-height: 1;
+  padding: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-family: italianno;
+}
+.title {
+  padding: 20px 0;
+  color: #fbda57;
+  text-align: center;
+  /*border-bottom: 1px solid;*/
+  font-size: 60px;
+  /*font-size: 600%;*/
+  font-family: janda;
+}
+.naming {
+  font-size: 70px;
+}
+.pane {
+  background-color: transparent;
+}
+.bg-board {
+  background: url(../img/wooden-sign-trans3.png) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+  /*height: 300px;*/
+  bottom: -20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 50%;
+  /* width: 100%; */
+  background-position: bottom;
+}
+.board-content {
+  /*color: #ffbd91;*/
+  color: #fbda57;
+  text-align: center;
+  margin-top: 20px;
+}
+.board-content label {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+}
+.board-content .groom {
+    margin-top: 10px;
+}
+.board-content .joiner {
+    margin-top: 10px;
+}
+.board-content .bride {
+    margin-top: 10px;
+}
+.board-content .date {
+    margin-top: 10px;
+}
+.board-content .come-in {
+  font-size: 60px;
+  bottom: 25px;
+  position: absolute;
+  right: 20px;
+}
+.back-button {
+  font-size: 50px;
+  color: #fbda57;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}
+.board-content .count-down label {
+  font-size: 16px;
+  bottom: 15px;
+  position: absolute;
+  left: 5px;
+}
+.board-content .remaining {
+  margin-top: 15px;
+}
+.rem-days-big {
+  color: #fbda57;
+  font-size: 24px;
+  text-align: center;
+  font-size: 80px;
+  margin-top: -10px;
+  font-family: italianno;
+}
+.togo {
+  font-family: italianno;
+  font-size: 30px;
+}
+.time {
+  font-size: 30px;
+  font-weight: 200;
+  font-family: italianno;
+  margin-top: 15px;
+}
+.time span {
+  font-size: 50px;
+}
+
+.remaining-subtitle {
+  font-family: italianno;
+  font-size: 25px;
+  margin-left: -10px;
+}
+.venue {
+  color: #fbda57;
+  line-height: 1;
+  padding: 10px;
+  font-size: 35px;
+  font-family: italianno;
+  text-align: center;
+}
+.venue label.title {
+  font-size: 40px;
+  font-family: italianno;
+  font-size: 50px;
+}
+.contact {
+  font-family: italianno;
+  text-align: center;
+  font-size: 34px;
+}
+.contact .icon {
+  color: #fbda57;
+  display: inline-block;
+}
+.contact a {
+  color: #fbda57;
+}
+.contact span {
+  text-decoration: underline;
+}
+.contact i {
+  font-size: 20px;
+}
+.contact .route {
+  margin-left: 40px;
+}
+i.route {
+  font-size: 22px;
+}
+.extra-info {
+  color: #fbda57;
+  font-family: italianno;
+}
+.item {
+  background: none;
+  border-color: #fbda57;
+  font-size: 34px;
+  padding: 25px;
+}
+.item.activated {
+  background-color: #5f4231;
+  border-color: #fbda57;
+}
+.item i.icon {
+  font-size: 25px;
+}
+.invitation-classic {
+  width: 100%;
+}
+@media only screen and (max-width: 320px) {
+    .title {
+      font-size: 50px;
+    }
+    .rem-days-big {
+      font-size: 50px;
+    }
+    .time {
+      font-size: 20px;
+    }
+}
+.wish-form {
+  text-align: center;
+}
+.wish-form .list {
+  margin-bottom: 5px;
+}
+.wish-form .item {
+  border: 0px;
+  padding: 5px;
+}
+.wish-form button {
+  background: #634533;
+  color: #fbda57;
+  border: 1px solid #543a2a;
+}
+.wish-form button.activated, .wish-form button.active {
+  background: #4e3729;
+  color: #fbda57;
+  border: 1px solid #543a2a;
+}
+.wish-form button:hover {
+  background: #4e3729;
+  color: #fbda57;
+  border: 1px solid #543a2a;
+}
+.wish-form button:active, .wish-form button:activated, .wish-form button:focus {
+  background: #4e3729;
+  color: #fbda57;
+  border: 1px solid #543a2a;
+}
+textarea {
+  margin-right: 16px;
+  font-size: 18px;
+  padding: 5px;
+  background: #634533;
+  color: #fbda57;
+}
+input[type="text"] {
+  color: #fbda57;
+  font-size: 18px;
+  background: #634533;
+  padding: 5px;
+  margin-right: 16px;
+}
+.loading-container .loading {
+  background-color: rgb(99, 69, 51);
+  color: #fbda57;
+}
+.status {
+  color: #fbda57;
+  background: #634533;
+  padding: 18px;
+  border-radius: 10px;
+  margin: 0 15px 0 15px;
+}
+.status label {
+  font-size: 16px;
+}
+.spinner-android {
+  stroke: #fbda57;
+}
+.wishes {
+  overflow-y: scroll;
+  margin-top: 10px;
+}
+.wishes .item {
+  padding: 5px;
+  font-family: italianno;
+}
+.wishes .item label.name {
+  font-size: 28px;
+  color: white;
+}
+.wishes .item label.date {
+  float: right;
+  margin-right: 15px;
+  color: white;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.wishes .item .content{
+  font-size: 24px;
+  color: #fbda57;
+  padding-top: 5px;
+}
+.main-content {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  font-family: italianno;
+  line-height: 1;
+}
