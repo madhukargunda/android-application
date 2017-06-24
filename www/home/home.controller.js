@@ -1,7 +1,6 @@
 (function() {
   angular.module("starter").controller("HomeController", function($scope) {
     $scope.goBack = function() {
-      alert("sadf");
       window.history.back();
     };
     $scope.navigateToMap = function(type) {

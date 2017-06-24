@@ -19,9 +19,9 @@
     //debug: {mode: 1} // set DEBUG mode
   };
   var CREDENTIALS = {
-      appId: 58353,
-      authKey: 'uaJSFbMW2JSv6OO',
-      authSecret: 'C7EVUGEMy3nJe6a'
+      appId: 59568,
+      authKey: 'x2COSvLGyv7gvA-',
+      authSecret: 'GWLFeWY2NYpkykB'
   };
 
   var config = {
@@ -43,10 +43,10 @@
   this.createSession = function(sendMessage) {
     var deferred = $q.defer();
     var user = {
-      id: 28146068,
-      name: 'JwedsB',
-      login: 'jwedsb',
-      pass: 'jwedsbjwedsb'
+      id: 29226952,
+      name: 'Madhukar',
+      login: 'madhukar.b4u@gmail.com',
+      pass: 'madhukar'
     };
 
     QB.createSession({login: user.login, password: user.pass}, function(err, res) {
@@ -99,7 +99,7 @@
       var deferred = $q.defer();
       $http({
         method : "GET",
-        url : "https://api.quickblox.com/chat/Message.json?chat_dialog_id=5928073aa28f9a0a5d6087a1&sort_desc=date_sent",
+        url : "https://api.quickblox.com/chat/Message.json?chat_dialog_id=5953c3b0a0eb474b82c08a53&sort_desc=date_sent",
         headers: {
          'Content-Type': 'application/json',
          'QB-Token': self.qbToken

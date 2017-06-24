@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="12" id="com.antandbuffalo.jwedsb" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>KwedsV</name>
+<widget android-versionCode="15" id="study.pattern.weddingapp" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Subhalekha</name>
     <description>
         Invitation of Vamshi Krishna - Kiranmai marriage
     </description>
     <author email="rakesh.geli@gmail.com">
-      Bavani Jeyabalaji
+      Kiranmai Vamshi Krishna
     </author>
     <content src="index.html" />
     <access origin="*" />

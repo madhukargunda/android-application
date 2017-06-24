@@ -7,6 +7,10 @@
     $scope.isLoading = false;
     $scope.wishes = [];
 
+    $scope.goBack = function() {
+      window.history.back();
+    };
+
     function showStatus(time) {
       if(!time) {
         time = 2000;
@@ -31,7 +35,7 @@
 
     $scope.sendWish = function() {
       var wish = {
-        "chat_dialog_id": "5928073aa28f9a0a5d6087a1",
+        "chat_dialog_id": "5953c3b0a0eb474b82c08a53",
         "message": $scope.wish.content,
         "senderName": $scope.wish.sender,
         "wish": $scope.wish.content

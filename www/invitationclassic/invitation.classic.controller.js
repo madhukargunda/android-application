@@ -1,5 +1,9 @@
 (function() {
   angular.module("starter").controller("InvitationClassicController", function($scope, $stateParams) {
+
+    $scope.goBack = function() {
+      window.history.back();
+    };
     $scope.type = $stateParams.type;
     function getBase64Image(path) {
     // Create an empty canvas element
@@ -58,6 +62,8 @@
 
   function copyToSdCard(imageName) {
     //https://github.com/gkcgautam/Asset2SD
+
+    asset2sd = function(){};
     asset2sd.copyFile({
     		asset_file: "www/img/" + imageName,
     		destination_file: "JwedsB/" + imageName

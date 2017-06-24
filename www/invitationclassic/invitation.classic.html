@@ -1,9 +1,13 @@
 <ion-view class="bg-gradient-content1">
+
   <ion-content>
-    <h1 class="title">J weds B</h1>
+      <span class="back-button" ng-click="goBack()">
+    <i class="ion-android-arrow-back"></i>
+  </span> 
+    <h1 class="title">K weds VK</h1>
     <div class="invitation-content">
-      <img ng-if="type=='tamil'"class="invitation-classic" src="img/invitationclassic2.jpg" ng-click="openFile('invitationclassic2.jpg')"/>
-      <img ng-if="type=='tamil'"class="invitation-classic" src="img/invitationclassic1.jpg" ng-click="openFile('invitationclassic1.jpg')"/>
+
+      <img ng-if="type=='telugu'" class="invitation-classic" src="img/invitationtelugu.jpg" ng-click="openFile('invitationtelugu.jpg')"/>
       <img ng-if="type=='english'" class="invitation-classic" src="img/invitationenglish1.jpg" ng-click="openFile('invitationenglish1.jpg')"/>
     </div>
     <br />

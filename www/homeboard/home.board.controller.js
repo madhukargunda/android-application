@@ -1,11 +1,11 @@
 (function() {
   angular.module("starter").controller("HomeBoardController", function($scope, $interval, $location, $timeout, wishesService) {
     //var marriageDate = new Date(1496539800000).getTime();
-    var marriageDate = new Date("04-june-2017 09:30:00 GMT+0530").getTime();
-    var weddingDay12am = new Date("04-june-2017 00:00:00").getTime();
-    var previousDay = new Date("03-june-2017 09:30:00").getTime();
-    var previousWeek = new Date("28-may-2017 09:30:00").getTime();
-    var engagement = new Date("03-june-2017 10:00:00").getTime();
+    var marriageDate = new Date("27-july-2017 21:48:00 GMT+0530").getTime();
+    var weddingDay12am = new Date("27-july-2017-2017 00:00:00").getTime();
+    var previousDay = new Date("26-july-2017 21:48:00").getTime();
+    var previousWeek = new Date("16-july-2017 21:48:00").getTime();
+    var engagement = new Date("06-may-2017 10:00:00").getTime();
     var today = new Date().getTime();
     var nextDay = marriageDate + (24 * 60 * 60 * 1000);
     var voteOfThanks = marriageDate + (1 * 60 * 60 * 1000);
@@ -75,7 +75,7 @@
 
         cordova.plugins.notification.local.schedule({
           id: id,
-          title: "Jeyabalaji weds Bavani",
+          title: "Vamshikrishna weds Kiranmai",
           text: desc,
           at: time,
           icon: 'res://ic_stat_onesignal_default',
@@ -86,13 +86,13 @@
     //just
 
     if(weddingDay12am >= today) {
-      setLocalNotification(weddingDay12am, "Today, 9:30am to 10:30am", 101);
+      setLocalNotification(weddingDay12am, "Today, 9:48pm to 10:30pm", 101);
     }
     if(previousDay >= today) {
-      setLocalNotification(previousDay, "Tomorrow, 9:30am to 10:30am", 102);
+      setLocalNotification(previousDay, "Tomorrow, 9:48pm to 10:30pm", 102);
     }
     if(previousWeek >= today) {
-      setLocalNotification(previousWeek, "Next week, Sunday, 9:30am to 10:30am", 103);
+      setLocalNotification(previousWeek, "Next week, Thursday, 9:48pm to 10:30pm", 103);
     }
     if(engagement >= today) {
       setLocalNotification(engagement, "Engagement, Today evening 7pm to 8pm", 104);
